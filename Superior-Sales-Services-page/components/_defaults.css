@@ -1,0 +1,21 @@
+a {
+  color: var(--black);
+  opacity: 0.85;
+  transition: opacity 200ms;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+p {
+  color: var(--gray-dark);
+}
+
+strong {
+  font-weight: inherit;
+}
+
+address {
+  font-style: normal;
+}

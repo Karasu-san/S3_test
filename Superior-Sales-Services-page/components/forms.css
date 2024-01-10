@@ -1,0 +1,44 @@
+.input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--gray);
+  color: var(--black);
+  font-weight: 300;
+  line-height: 1.9;
+  font-size: 1.4rem;
+  padding: 12px 10px;
+  margin-bottom: 24px;
+  transition: border-color 200ms;
+}
+
+.input:focus {
+  border-bottom-color: var(--primary);
+  outline: none;
+}
+
+textarea.input {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-section {
+  background-color: var(--beige);
+  position: relative;
+}
+
+.form-not-available {
+  background-color: var(--beige);
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  inset: 0px;
+}
+
+#dark-text {
+  color: #000000;
+}

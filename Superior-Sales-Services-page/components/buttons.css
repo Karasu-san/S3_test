@@ -1,0 +1,36 @@
+.btn {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-weight: 600;
+  opacity: 0.8;
+  transition: translate 180ms, opacity 180ms;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn:active {
+  translate: 1px 1px;
+}
+
+.btn--nav {
+  color: var(--black);
+  padding: 12px;
+}
+
+.btn--raised {
+  background-color: var(--primary);
+  color: var(--black);
+  padding: 12px 53px 12px 24px;
+  background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478882/learnhtmlcss/portfolio/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}

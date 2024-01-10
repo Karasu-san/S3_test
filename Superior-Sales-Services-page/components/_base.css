@@ -1,0 +1,48 @@
+:root {
+  --primary: #f2d544;
+  --black: #232020;
+  --gray: #999999;
+  --beige: #f5f1f1;
+  --gap: 80px;
+  --text-color: white;
+  --gray-dark: #666666;
+  --dark-icon: var(--black);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--beige);
+  color: var(--black);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+      scroll-behavior: smooth;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+::selection {
+  background-color: var(--black);
+  color: var(--text-color);
+}
+
+@media (max-width: 37.5rem) {
+  :root {
+      --gap: 30px;
+  }
+  html {
+      font-size: 70%;
+  }
+}
