@@ -1,6 +1,7 @@
 nav {
   background-color: var(--secondary);
-  position: sticky;
+  width: 100%;
+  position: fixed;
   top: 0;
   z-index: 1;
 }
@@ -9,7 +10,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 25px;
 }
 
 .nav-links {
