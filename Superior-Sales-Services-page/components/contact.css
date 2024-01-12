@@ -21,6 +21,15 @@
   margin-bottom: 5px;
 }
 
+#google-map-frame {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+  border: 2px solid var(--gray-dark);
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 37.5rem) {
   .contact-form {
       grid-template-columns: 1fr;
