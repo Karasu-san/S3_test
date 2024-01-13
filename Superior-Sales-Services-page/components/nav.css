@@ -10,6 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3px;
 }
 
 .nav-links {
@@ -17,6 +18,23 @@ nav {
   gap: 10px;
   list-style: none;
   padding-left: 0;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo p {
+  margin: 0;
+  font-size: 0.59rem;
+  font-weight: bold;
+  color: var(--black);
+  line-height: 1.1;
+  position: relative;
+  top: 7px;
+  left: -3px;
 }
 
 @media (max-width: 48.5rem) {
