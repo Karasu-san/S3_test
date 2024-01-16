@@ -41,7 +41,6 @@ nav {
 @media (max-width: 37.5rem) {
   .nav-logo p {
     font-size: 0.77rem;
-    top: 8px;
     left: -6px;
   }
 }
