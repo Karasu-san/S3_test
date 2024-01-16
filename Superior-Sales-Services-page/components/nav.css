@@ -38,6 +38,14 @@ nav {
   left: -5px;
 }
 
+@media (max-width: 37.5rem) {
+  .nav-logo p {
+    font-size: 0.77rem;
+    top: 9px;
+    left: -6px;
+  }
+}
+
 @media (max-width: 48.5rem) {
   .nav-links li:not(:last-child) {
       display: none;
