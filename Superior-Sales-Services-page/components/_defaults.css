@@ -23,3 +23,9 @@ address {
 main {
   margin-top: 175px;
 }
+
+@media (max-width: 37.5rem) {
+  main {
+    margin-top: 135px;
+  }
+}
