@@ -21,24 +21,3 @@ textarea.input {
   min-height: 100px;
   resize: vertical;
 }
-
-.form-section {
-  background-color: var(--beige);
-  position: relative;
-}
-
-.form-not-available {
-  background-color: var(--beige);
-  opacity: 0.6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  text-align: center;
-  position: absolute;
-  inset: 0px;
-}
-
-#dark-text {
-  color: #000000;
-}
